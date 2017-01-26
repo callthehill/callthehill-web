@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+import { CallsComponent } from './calls.component';
 
 const routes: Routes = [
 ]
@@ -15,7 +16,10 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     NgbModule.forRoot()
   ],
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    CallsComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
