@@ -14,7 +14,9 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "keywords": ["callthehill"],
+  "keywords": [
+    "callthehill"
+  ],
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
@@ -26,6 +28,7 @@
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
     "@angular/router": "~3.4.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.19",
     "angular-in-memory-web-api": "~0.2.4",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
@@ -53,11 +56,14 @@
     "@types/jasmine": "^2.5.36"
   },
   "repository": {},
-  "contributors": [{
-    "name": "Zach Zundel",
-    "email": "zach.zundel@utah.edu"
-  }, {
-    "name": "Connor Kuhn",
-    "email": "connor.kuhn@kuhnclan.com"
-  }]
+  "contributors": [
+    {
+      "name": "Zach Zundel",
+      "email": "zach.zundel@utah.edu"
+    },
+    {
+      "name": "Connor Kuhn",
+      "email": "connor.kuhn@kuhnclan.com"
+    }
+  ]
 }
