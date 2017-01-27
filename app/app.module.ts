@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { CallsComponent } from './calls.component';
+import { CallsComponent } from './calls/calls.component';
 
 const routes: Routes = [
 ]

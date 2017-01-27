@@ -13,8 +13,8 @@ const dummyStats: Stat[] = [{
 
 @Component({
   selector: 'calls',
-  templateUrl: 'app/calls.component.html',
-  styleUrls: ['app/calls.component.css']
+  templateUrl: 'app/calls/calls.component.html',
+  styleUrls: ['app/calls/calls.component.css']
 })
 export class CallsComponent {
   stats = dummyStats;
