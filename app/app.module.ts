@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { CallsComponent } from './calls/calls.component';
 import { FeedComponent } from './feed/feed.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
 ]
@@ -20,7 +21,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     CallsComponent,
-    FeedComponent
+    FeedComponent,
+    ProfileComponent
   ],
   bootstrap: [AppComponent]
 })
