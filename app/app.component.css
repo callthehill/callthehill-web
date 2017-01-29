@@ -1,5 +1,23 @@
 @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 .navbar-brand.navbar-image {
+  text-align: center;
   height: 1%;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #333
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }

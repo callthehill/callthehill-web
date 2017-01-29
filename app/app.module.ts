@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CallsComponent } from './calls/calls.component';
 import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
 ]
@@ -22,7 +23,8 @@ const routes: Routes = [
     AppComponent,
     CallsComponent,
     FeedComponent,
-    ProfileComponent
+    ProfileComponent,
+    UserComponent
   ],
   bootstrap: [AppComponent]
 })

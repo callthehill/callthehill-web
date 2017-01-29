@@ -5,4 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: 'app/feed/feed.component.html',
   styleUrls: ['app/feed/feed.component.css']
 })
+
 export class FeedComponent { }
