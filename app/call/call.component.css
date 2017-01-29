@@ -1,0 +1,16 @@
+.phone-number {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 108px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.script {
+    font-size: 18px;
+}
+
+.responses {
+    height: 100px;
+    margin-top: 30px;
+}
