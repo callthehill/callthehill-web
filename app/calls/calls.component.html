@@ -1,4 +1,5 @@
-<div class="card text-center" *ngFor="let stat of stats">
-  <span class="badge badge-default badge-calls">{{ stat.count }}</span>
-  <h3>{{ stat.label }}</h3>
+<div class="stat text-center" *ngFor="let stat of stats">
+  <span class="stat-number text-primary ">{{ stat.count }}</span>
+  <br>
+  <span class="stat-label text-muted">{{ stat.label }}</span>
 </div>

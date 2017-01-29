@@ -16,6 +16,7 @@ const dummyStats: Stat[] = [{
   templateUrl: 'app/calls/calls.component.html',
   styleUrls: ['app/calls/calls.component.css']
 })
+
 export class CallsComponent {
   stats = dummyStats;
 }

@@ -1,3 +1,14 @@
-.badge.badge-calls {
+.stat-label {
   font-size: 32px;
+  font-weight: 100;
+}
+
+.stat-number {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.stat {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
