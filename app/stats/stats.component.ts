@@ -12,12 +12,12 @@ const dummyStats: Stat[] = [{
 }]
 
 @Component({
-  selector: 'calls',
-  templateUrl: 'app/calls/calls.component.html',
-  styleUrls: ['app/calls/calls.component.css']
+  selector: 'stats',
+  templateUrl: 'app/stats/stats.component.html',
+  styleUrls: ['app/stats/stats.component.css']
 })
 
-export class CallsComponent {
+export class StatsComponent {
   stats = dummyStats;
 }
 

@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
-
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { CallsComponent } from './calls/calls.component';
+import { StatsComponent } from './stats/stats.component';
 import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UserComponent } from './user/user.component';
+import { CallComponent } from './call/call.component';
 
 const routes: Routes = [
 ]
@@ -21,7 +21,8 @@ const routes: Routes = [
   ],
   declarations: [
     AppComponent,
-    CallsComponent,
+    StatsComponent,
+    CallComponent,
     FeedComponent,
     ProfileComponent,
     UserComponent
