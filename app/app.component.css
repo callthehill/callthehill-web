@@ -7,15 +7,23 @@
 }
 
 .header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #333
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /*padding-bottom: 15px;*/
+  border-bottom: thin #D9D9D9 solid;
+  /*background-color: #333*/
 }
 
 .title {
-  color: #fff;
-  font-weight: 700;
-  font-size: 40px;
+  /*color: #fff;*/
+  /*font-weight: 700;*/
+  /*font-size: 40px;*/
+  display: inline;
+  /*padding-right: 15px;*/
+}
+
+.title-image {
+  padding-right: 10px;
 }
 
 .vertical-align {
