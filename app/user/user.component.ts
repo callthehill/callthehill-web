@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
+import { LoginContent } from '../login/login.content';
 
 const dummyState: UserState = {
   logged_in: false,
@@ -11,8 +14,17 @@ const dummyState: UserState = {
   styleUrls: ['app/user/user.component.css']
 })
 
-export class UserComponent { 
-  state = dummyState; 
+export class UserComponent {
+  state = dummyState;
+
+  constructor(private modalService: NgbModal) { }
+
+  login() {
+    this.modalService.open(LoginContent, {
+      backdrop: 'static',
+      keyboard: false
+    });
+  }
 }
 
 export class UserState {
