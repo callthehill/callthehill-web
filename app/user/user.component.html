@@ -1,9 +1,10 @@
-<!--<span *ng-if="state.logged_in; then logoutBlock; else loginBlock"></span>
-
-<template #logoutBlock>
-    {{ state.username }} | <a href="logout">Logout</a>
-</template>
-
-<template #loginBlock>-->
-<a class="user-info align-middle" (click)="login()">Login</a>
-<!--</template>-->
+<div [ngSwitch]="state.logged_in">
+    <div class="user-info align-middle">
+        <div *ngSwitchCase="true">
+            {{ state.username }} | <a href="logout">Logout</a>
+        </div>
+        <div *ngSwitchCase="false">
+            <a class="user-info align-middle" (click)="login()">Login</a>
+        </div>
+    </div>
+</div>

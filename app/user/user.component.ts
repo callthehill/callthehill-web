@@ -5,7 +5,7 @@ import { LoginContent } from '../login/login.content';
 
 const dummyState: UserState = {
   logged_in: false,
-  username: ""
+  username: 'zachzundel'
 }
 
 @Component({

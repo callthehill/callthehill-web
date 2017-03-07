@@ -1,3 +1,9 @@
 .row.feed-search {
   margin-top: 1%;
 }
+
+.feed-card {
+  background-color: #333; 
+  width: 100%;
+  margin: 10px;
+}

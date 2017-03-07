@@ -1,16 +1,9 @@
 <div class="row" *ngFor="let item of feed">
-
+    <div class="card card-inverse feed-card">
+        <div class="card-block">
+            <h3 class="card-title">{{ item.title }}</h3>
+            <p class="card-text">{{ item.body }}</p>
+            <a href="{{ item.destination }}" class="btn btn-primary">{{ item.action }}</a>
+        </div>
+    </div>
 </div>
-
-
-<template #NewLegislation>
-
-</template>
-
-<template #Update>
-
-</template>
-
-<template #IssueCard>
-
-</template>
